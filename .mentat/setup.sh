@@ -20,4 +20,14 @@ cat > .prettierrc << EOF
 }
 EOF
 
+# Create HTML-validate configuration
+cat > .htmlvalidate.json << EOF
+{
+  "rules": {
+    "doctype-style": "off",
+    "void-style": "off"
+  }
+}
+EOF
+
 echo "Setup completed successfully!"
