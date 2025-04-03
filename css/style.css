@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", Courier, monospace;
+  font-family: 'Montserrat', Courier, monospace;
 }
 .content {
   max-width: 80%;
@@ -30,7 +30,7 @@ img {
   align-items: center;
 }
 p {
-  font-family: "Montserrat", Courier, monospace;
+  font-family: 'Montserrat', Courier, monospace;
   font-size: 2rem;
   font-weight: bold;
   color: #333333;
