@@ -6,7 +6,10 @@ npm install -g html-validate stylelint stylelint-config-standard prettier
 # Create Stylelint configuration
 cat > .stylelintrc.json << EOF
 {
-  "extends": "stylelint-config-standard"
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "selector-class-pattern": "^[a-z][a-zA-Z0-9]*(__[a-z][a-zA-Z0-9]*)?(__[a-z][a-zA-Z0-9]*)*$"
+  }
 }
 EOF
 
